@@ -8,7 +8,7 @@ client](https://github.com/joomla/joomla-cms/tree/master/libraries/joomla/oauth2
 
 The plugin will be triggered at "OnAfterInitiallise" event of Joomla CMS, checking if a code has been received in the URL.
 If there is a code, it will call the login method of the app. Be sure to have an authentication plugin activated 
-that is able to handle the OAuth2 authentication, like the [facebook authentication plugin](#).
+that is able to handle the OAuth2 authentication, like the [facebook authentication plugin](https://github.com/rubrodapa/pl_facebookauthentication).
 
 **OAuth2 Redirection Login Treatment 0.0.1**
 
